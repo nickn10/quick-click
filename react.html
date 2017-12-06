@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gotcha!</title>
+	<link rel="stylesheet" type="text/css" href="react.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Gotcha!</h1>
+  </div>
+
+  <div class="container">
+    <div class="navbar">
+      <div class="main-nav left">
+      	<p class="level easy left">Easy</p>
+        <p class="level normal left">Normal</p>
+        <p class="level difficult right">Difficult</p>
+      </div>
+        <p id="timer">Time: <span id="time">10</span>s</p>
+      <div class="main-nav right">
+        <p class="left">High Score: <span id="high-score"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="game-area">
+  	<div class="starter-square hidden">
+  	  <p class="new-high high-hidden">New High</p>
+  	  <div id="game-end">
+  	    <p>Score:</p>
+  	    <p id="score"></p>
+  	    <p id="replay">Replay</p>
+  	  </div>
+  	</div>
+    <div class="shape"></div>
+    <div id="instructions">
+      <h2>Objective:</h2>
+      <p>Capture each object as it appears, by clicking on it as fast as you can!  See how many you can collect before time runs out! <br>Select a mode to...</p>
+      <span id="begin" class="start high-hidden">Begin!</span>
+      <p id="hint">*Widen your browser to make it more challenging.
+    </div>
+  </div>
+
+  <script type="text/javascript" src="react.js"></script>
+</body>
+</html>
