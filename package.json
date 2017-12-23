@@ -1,0 +1,22 @@
+{
+  "name": "quick-click",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickn10/quick-click.git"
+  },
+  "author": "nick-nunez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickn10/quick-click/issues"
+  },
+  "engines": {
+    "node": "8.9.3"
+  }
+}
